@@ -1,0 +1,71 @@
+﻿@model TestWithADO.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "User Registration";
+}
+<link rel="stylesheet" href="~/css/register.css" asp-append-version="true" />
+
+<div class="login-page-container">
+    <div class="login-content-wrapper">
+
+        <div class="login-illustration">
+            <h2 class="illustration-text">CREATE YOUR ACCOUNT</h2>
+            <dotlottie-wc src="https://lottie.host/a8128003-4b70-4710-a7e9-4f887b7914ac/TJnwxSwjGk.lottie"
+                          style="width: 450px;height: 450px"
+                          autoplay
+                          loop></dotlottie-wc>
+        </div>
+
+        <div class="login-form-container">
+            <h2 class="mb-4 form-title">Create Your XTREMEPC Account 📝</h2>
+            <hr class="form-hr" />
+
+            <form asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Nom" class="form-label"></label>
+                        <input asp-for="Nom" class="form-control" />
+                        <span asp-validation-for="Nom" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Prenom" class="form-label"></label>
+                        <input asp-for="Prenom" class="form-control" />
+                        <span asp-validation-for="Prenom" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="ConfirmPassword" class="form-label"></label>
+                        <input asp-for="ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-2 d-md-block mt-4">
+                    <button type="submit" class="btn btn-success register-btn">Register</button>
+                    <a asp-action="Login" class="btn btn-secondary back-to-login-btn">Back to Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,1193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\addcategory.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\addcategory.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\orders\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\orders\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\confirmation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\confirmation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\orders\\orderslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\orders\\orderslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\categorie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\categorie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\services\\categorieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\services\\categorieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\services\\commandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\services\\commandeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\orderdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\orderdetail.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\orderslist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\orderslist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\adminproducts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\adminproducts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\shared\\components\\navlinks\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\shared\\components\\navlinks\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\lignecommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\lignecommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\viewcomponents\\navlinksviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\viewcomponents\\navlinksviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\shared\\components\\userstatus\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\shared\\components\\userstatus\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\shared\\components\\carticon\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\shared\\components\\carticon\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\viewcomponents\\carticonviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\viewcomponents\\carticonviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\shared\\components\\navlinks\\default.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\shared\\components\\navlinks\\default.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\viewcomponents\\cartsummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\viewcomponents\\cartsummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\services\\utilisateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\services\\utilisateurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\editcategory.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\editcategory.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\categorie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\categorie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\categorie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\categorie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\editproduct.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\editproduct.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\produit\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\produit\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\admin\\produit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\admin\\produit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\createproduct.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\createproduct.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\admincategories.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\admincategories.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\admindashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\admindashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\produit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\produit\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\detailproduit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\detailproduit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\produits.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\produits.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\services\\produitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\services\\produitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\viewcomponents\\userstatusviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\viewcomponents\\userstatusviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\views\\shared\\components\\cartsummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\views\\shared\\components\\cartsummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\profileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\profileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|c:\\users\\dell\\desktop\\projetexamentp\\projetexamentp\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9FAD9F3-75A8-40BB-940D-F09DE8FF6329}|projetExamenTP\\projetExamenTP.csproj|solutionrelative:projetexamentp\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Orders\\OrdersList.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Orders\\OrdersList.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Orders\\OrdersList.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Orders\\OrdersList.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T19:14:33.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Produit\\Index.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Produit\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Produit\\Index.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Produit\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:36:51.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:50:23.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:51:52.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:41:46.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\CartController.cs",
+              "RelativeToolTip": "projetExamenTP\\Controllers\\CartController.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAQwMwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:28:00.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:39:19.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Cart\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Cart\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:44:46.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Orders\\OrderDetail.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Orders\\OrderDetail.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Orders\\OrderDetail.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Orders\\OrderDetail.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T19:36:05.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "addCategory.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\addCategory.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\addCategory.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\addCategory.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\addCategory.css",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAEwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T18:00:39.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategorieController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\CategorieController.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Controllers\\CategorieController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\CategorieController.cs",
+              "RelativeToolTip": "projetExamenTP\\Controllers\\CategorieController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAxwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:12:17.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "confirmation.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\confirmation.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\confirmation.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\confirmation.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\confirmation.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T21:54:10.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategorieService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\CategorieService.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Services\\CategorieService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\CategorieService.cs",
+              "RelativeToolTip": "projetExamenTP\\Services\\CategorieService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAQwGAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:10:55.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Categorie\\Index.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Categorie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Categorie\\Index.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Categorie\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:34:30.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Account\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:54:17.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Account\\EditProfile.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Account\\EditProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:41:23.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "projetExamenTP\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAewAIBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:27:33.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProduitController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\ProduitController.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Controllers\\ProduitController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\ProduitController.cs",
+              "RelativeToolTip": "projetExamenTP\\Controllers\\ProduitController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:09:18.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommandeService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\CommandeService.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Services\\CommandeService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\CommandeService.cs",
+              "RelativeToolTip": "projetExamenTP\\Services\\CommandeService.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAgwG8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:41:14.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Commande.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\Commande.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Commande.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\Commande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:49:15.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "projetExamenTP\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:08:03.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:29:45.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "adminProducts.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\adminProducts.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\adminProducts.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\adminProducts.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\adminProducts.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T17:02:06.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Produit\\Index.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Produit\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Produit\\Index.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Produit\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:14:08.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:06:50.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:50:45.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Produit.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:06:04.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "orderDetail.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\orderDetail.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\orderDetail.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\orderDetail.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\orderDetail.css",
+              "ViewState": "AgIAAL0AAAAAAAAAAADwv+MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T19:41:47.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LigneCommande.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\LigneCommande.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\LigneCommande.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\LigneCommande.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\LigneCommande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:49:41.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ordersList.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\ordersList.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\ordersList.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\ordersList.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\ordersList.css",
+              "ViewState": "AgIAAGUAAAAAAAAAAADwv4sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T19:25:30.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T18:29:57.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\UserStatus\\Default.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Shared\\Components\\UserStatus\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\UserStatus\\Default.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Shared\\Components\\UserStatus\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:57:57.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:13:01.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Produit\\Create.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Produit\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Produit\\Create.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Produit\\Create.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:37:11.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Produit\\Details.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Produit\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Produit\\Details.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Produit\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T22:38:24.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "editCategory.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\editCategory.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\editCategory.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\editCategory.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\editCategory.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T18:14:31.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NavLinksViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\NavLinksViewComponent.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\ViewComponents\\NavLinksViewComponent.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\NavLinksViewComponent.cs",
+              "RelativeToolTip": "projetExamenTP\\ViewComponents\\NavLinksViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:28:52.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CartIconViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\CartIconViewComponent.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\ViewComponents\\CartIconViewComponent.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\CartIconViewComponent.cs",
+              "RelativeToolTip": "projetExamenTP\\ViewComponents\\CartIconViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:50:17.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\CartIcon\\Default.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Shared\\Components\\CartIcon\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\CartIcon\\Default.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Shared\\Components\\CartIcon\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T18:51:07.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Default.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml.cs",
+              "RelativeToolTip": "projetExamenTP\\Views\\Shared\\Components\\NavLinks\\Default.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:38:39.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "editProduct.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\editProduct.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\editProduct.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\editProduct.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\editProduct.css",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv7gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T17:53:39.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Categorie\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Categorie\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Categorie\\Edit.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Categorie\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:35:09.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UtilisateurService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\UtilisateurService.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Services\\UtilisateurService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\UtilisateurService.cs",
+              "RelativeToolTip": "projetExamenTP\\Services\\UtilisateurService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:30:23.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CartSummaryViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\CartSummaryViewComponent.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\ViewComponents\\CartSummaryViewComponent.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\CartSummaryViewComponent.cs",
+              "RelativeToolTip": "projetExamenTP\\ViewComponents\\CartSummaryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:23:36.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Categorie\\Create.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Categorie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Categorie\\Create.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Categorie\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:34:51.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\appsettings.json",
+              "RelativeDocumentMoniker": "projetExamenTP\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\appsettings.json",
+              "RelativeToolTip": "projetExamenTP\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-06T19:04:26.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "projetExamenTP\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:08:31.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Produit\\Edit.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Admin\\Produit\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Admin\\Produit\\Edit.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Admin\\Produit\\Edit.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwG0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:37:30.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\home.css",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T13:10:45.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "createProduct.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\createProduct.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\createProduct.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\createProduct.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\createProduct.css",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv6IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T17:09:12.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "adminCategories.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\adminCategories.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\adminCategories.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\adminCategories.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\adminCategories.css",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv6IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T17:04:10.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAkwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T13:35:28.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "adminDashboard.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\adminDashboard.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\adminDashboard.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\adminDashboard.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\adminDashboard.css",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv3gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T16:17:56.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "produits.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\produits.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\produits.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\produits.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\produits.css",
+              "ViewState": "AgIAAJAAAAAAAAAAAADwv7YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T15:44:07.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "detailProduit.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\detailProduit.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\detailProduit.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\detailProduit.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\detailProduit.css",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv4oAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T15:53:14.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Home\\Products.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Home\\Products.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Home\\Products.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Home\\Products.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwGoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:13:35.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "editprofile.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\editprofile.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\editprofile.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\editprofile.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\editprofile.css",
+              "ViewState": "AgIAAHsAAAAAAAAAAADwv6EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T15:40:24.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "checkout.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\checkout.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\checkout.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\checkout.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\checkout.css",
+              "ViewState": "AgIAAK0AAAAAAAAAAADwv9MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T14:51:41.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:13:15.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "profile.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\profile.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\profile.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\profile.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\profile.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAgwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T14:44:07.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\register.css",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T14:37:41.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:40:47.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "projetExamenTP\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "projetExamenTP\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-11T14:20:56.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
+              "RelativeDocumentMoniker": "projetExamenTP\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
+              "RelativeToolTip": "projetExamenTP\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T19:24:49.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Program.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Program.cs",
+              "RelativeToolTip": "projetExamenTP\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:09:49.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UserStatusViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\UserStatusViewComponent.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\ViewComponents\\UserStatusViewComponent.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\ViewComponents\\UserStatusViewComponent.cs",
+              "RelativeToolTip": "projetExamenTP\\ViewComponents\\UserStatusViewComponent.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:57:07.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ProduitService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\ProduitService.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Services\\ProduitService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\ProduitService.cs",
+              "RelativeToolTip": "projetExamenTP\\Services\\ProduitService.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAgwPsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:07:31.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Services\\CartService.cs",
+              "RelativeToolTip": "projetExamenTP\\Services\\CartService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:11:35.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\ProfileViewModel.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:50:03.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\CartItem.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:10:26.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ProfileEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\ProfileEditViewModel.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\ProfileEditViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\ProfileEditViewModel.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\ProfileEditViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:39:38.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:47:36.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Categorie.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Categorie.cs",
+              "RelativeDocumentMoniker": "projetExamenTP\\Models\\Categorie.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\projetExamenTP\\projetExamenTP\\Models\\Categorie.cs",
+              "RelativeToolTip": "projetExamenTP\\Models\\Categorie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T19:06:27.285Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

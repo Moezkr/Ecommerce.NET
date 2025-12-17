@@ -1,0 +1,118 @@
+﻿@model IEnumerable<TestWithADO.Models.Categorie>
+@{
+    ViewData["Title"] = "Manage Categories";
+}
+<link rel="stylesheet" href="~/css/adminCategories.css" asp-append-version="true" />
+
+<div class="admin-page-container">
+    <h2 class="admin-page-title">@ViewData["Title"]</h2>
+    <hr class="admin-divider" />
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="admin-nav-group">
+                <a asp-controller="Admin" asp-action="Dashboard" class="admin-nav-item">Dashboard Home</a>
+
+                <a asp-controller="Produit" asp-action="Index" class="admin-nav-item">Manage Products</a>
+
+                <a asp-controller="Categorie" asp-action="Index" class="admin-nav-item active-link">Manage Categories</a>
+
+                <a asp-controller="Admin" asp-action="OrdersList" class="admin-nav-item">Orders List</a>
+                <a asp-controller="Account" asp-action="EditProfile" class="admin-nav-item">Edit Profile</a>
+            </div>
+        </div>
+
+        <div class="col-md-9 admin-content-area">
+
+            <p class="create-category-bar">
+                <a asp-action="Create" class="btn create-new-btn">Create New Category</a>
+            </p>
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-warning admin-alert-error">@TempData["Error"]</div>
+            }
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success admin-alert-success">@TempData["Success"]</div>
+            }
+
+            <table class="table admin-category-table">
+                <thead class="table-header">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Nom)</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="category-row">
+                            <td class="category-name-cell">@Html.DisplayFor(modelItem => item.Nom)</td>
+                            <td class="action-col">
+                                <a asp-action="Edit" asp-route-id="@item.CategorieID" class="action-link edit-link">Edit</a> |
+
+                                <button type="button" class="btn btn-link action-link delete-link delete-button"
+                                        data-bs-toggle="modal" data-bs-target="#confirmDeleteModal"
+                                        data-id="@item.CategorieID" data-name="@item.Nom">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="confirmDeleteModalLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete the category: <strong id="categoryName"></strong>?
+                This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+
+                <form id="deleteForm" asp-action="Delete" method="post" style="display:inline;">
+                    <input type="hidden" id="categoryIdToDelete" name="id" value="" />
+
+                  
+                    <input type="hidden" id="categoryNameToDelete" name="categoryName" value="" />
+
+                    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+                $(document).ready(function () {
+            $('#confirmDeleteModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var categoryId = button.data('id');
+                var categoryName = button.data('name'); 
+
+                var modal = $(this);
+                modal.find('#categoryName').text(categoryName);
+
+             
+                modal.find('#categoryIdToDelete').val(categoryId);
+
+           
+                modal.find('#categoryNameToDelete').val(categoryName);
+            });
+        });
+    </script>
+}

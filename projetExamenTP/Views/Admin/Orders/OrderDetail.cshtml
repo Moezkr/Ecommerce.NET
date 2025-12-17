@@ -1,0 +1,172 @@
+﻿@using System.Globalization
+@model (TestWithADO.Models.Commande Order, TestWithADO.Models.Utilisateur Customer)
+
+@{
+    ViewData["Title"] = $"Order Details #{Model.Order.CommandeID}";
+    var order = Model.Order;
+    var customer = Model.Customer;
+
+  
+    decimal ethExchangeRate = 8896.41M; 
+    decimal orderTotalDT = order.Total;
+    decimal orderTotalETH = 0M;
+
+    if (ethExchangeRate > 0)
+    {
+        orderTotalETH = orderTotalDT / ethExchangeRate;
+    }
+  
+    string GetStatusBadgeClass(string status) => status switch
+    {
+        "Delivered" => "bg-success",
+        "Shipped" => "bg-primary",
+        "Processing" => "bg-warning text-dark",
+        "Cancelled" => "bg-danger",
+        _ => "bg-secondary"
+    };
+
+ 
+    bool isDelivered = order.Etat.Equals("Delivered", StringComparison.OrdinalIgnoreCase);
+}
+
+<link rel="stylesheet" href="~/css/orderDetail.css" asp-append-version="true" />
+
+<div class="admin-page-container">
+    <h2 class="admin-page-title">@ViewData["Title"]</h2>
+    <hr class="admin-divider" />
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success mt-3">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger mt-3">@TempData["Error"]</div>
+    }
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="admin-nav-group">
+                <a asp-controller="Admin" asp-action="Dashboard" class="admin-nav-item">Dashboard Home</a>
+
+                <a asp-controller="Produit" asp-action="Index" class="admin-nav-item">Manage Products</a>
+
+                <a asp-controller="Categorie" asp-action="Index" class="admin-nav-item">Manage Categories</a>
+
+                <a asp-controller="Admin" asp-action="OrdersList" class="admin-nav-item active-link">Orders List</a>
+
+                <a asp-controller="Account" asp-action="EditProfile" class="admin-nav-item">Edit Profile</a>
+            </div>
+
+          
+        </div>
+
+        <div class="col-md-9 admin-content-area">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="card order-info-card">
+                        <div class="card-header info-header-bg">
+                            Customer & Shipping Information
+                        </div>
+                        <div class="card-body">
+                            <h5 class="section-title">Customer</h5>
+                            <p><strong>Name:</strong> @customer.Nom @customer.Prenom</p>
+                            <p><strong>Email:</strong> @customer.Email</p>
+                            <hr class="card-separator" />
+                            <h5 class="section-title">Shipping Address</h5>
+                            <p>@order.AdresseExpedition</p>
+                            <p>@order.Ville, @order.CodePostal</p>
+                            <p><strong>Phone:</strong> @order.Telephone</p>
+                            <p><strong>Method:</strong> @order.MethodeLivraison</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card order-summary-card">
+                        <div class="card-header summary-header-bg d-flex justify-content-between align-items-center">
+                            Order Summary
+                            <span class="badge @GetStatusBadgeClass(order.Etat) p-2">
+                                @order.Etat
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Order Date:</strong> @order.DateCommande.ToShortDateString()</p>
+
+                            <p class="total-paid">
+                                <strong>Total Paid (TND):</strong>
+                                <span>@orderTotalDT.ToString("N3") DT</span>
+                            </p>
+
+                            <p class="total-paid-eth">
+                                <strong>Total Paid (Ether):</strong>
+                                <span>@orderTotalETH.ToString("N5", CultureInfo.InvariantCulture) ETH</span>
+                            </p>
+
+                            <hr class="card-separator" />
+
+                            <h5 class="section-title">Admin Actions</h5>
+                            <div class="admin-action-buttons">
+
+                                @if (isDelivered)
+                                {
+                                    <button class="btn admin-btn me-2 btn-secondary" disabled>
+                                        Already Delivered
+                                    </button>
+                                }
+                                else
+                                {
+                                    <form asp-controller="Admin" asp-action="ConfirmDelivery" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="@order.CommandeID" />
+                                        <button type="submit" class="btn admin-btn confirm-delivery-btn me-2 btn-success">
+                                            Confirm Delivery
+                                        </button>
+                                    </form>
+                                }
+
+                                <a asp-controller="Admin" asp-action="OrdersList" class="btn admin-btn return-btn">Return to Orders List</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div class="card product-list-card">
+                        <div class="card-header product-list-header">
+                            Ordered Products
+                        </div>
+                        <div class="card-body">
+                            <table class="table order-product-table">
+                                <thead class="table-header">
+                                    <tr>
+                                        <th>Product Name</th>
+                                        <th>Unit Price</th>
+                                        <th>Quantity</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var line in order.Lignes)
+                                    {
+                                        <tr class="product-row">
+                                            <td class="product-name-cell">@line.ProduitTitre</td>
+                                            <td>@line.PrixUnitaire.ToString("N3") DT</td>
+                                            <td>@line.Quantite</td>
+                                            <td class="subtotal-cell">@line.SubTotal.ToString("N3") DT</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

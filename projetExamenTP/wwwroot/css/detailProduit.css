@@ -1,0 +1,119 @@
+﻿.product-detail-container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.product-title-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #1a1a1a;
+    border-bottom: 3px solid #ff9900;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px !important;
+}
+
+.detail-hr {
+    border-color: #f0f0f0;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.product-category {
+    font-size: 1.1rem;
+    color: #777;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.description-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px !important;
+}
+
+.product-description-text p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.product-image-col {
+    padding: 20px;
+}
+
+.image-wrapper {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-main-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-price {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ff9900 !important;
+    margin-bottom: 15px;
+}
+
+.status-bar .badge {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.status-available {
+    background-color: #28a745 !important;
+}
+
+.status-out-of-stock {
+    background-color: #dc3545 !important;
+}
+
+.max-quantity-warning,
+.unavailable-message {
+    border-left: 4px solid #ff9900;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+.add-to-cart-form {
+    margin-top: 25px !important;
+    padding-top: 15px;
+    border-top: 1px dashed #ddd;
+}
+
+.quantity-input-group .form-control {
+    width: 90px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.primary-cta-btn {
+    background-color: #1a1a1a !important;
+    border-color: #1a1a1a !important;
+    color: #ff9900 !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    transition: background-color 0.2s;
+}
+
+.primary-cta-btn:hover {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}

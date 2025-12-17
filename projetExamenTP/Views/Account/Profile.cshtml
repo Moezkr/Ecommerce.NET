@@ -1,0 +1,118 @@
+﻿@model TestWithADO.Models.ProfileViewModel
+
+@{
+    ViewData["Title"] = "My Profile";
+  
+    bool isCustomer = !Model.User.Role.Equals("Admin", StringComparison.OrdinalIgnoreCase);
+}
+<link rel="stylesheet" href="~/css/profile.css" asp-append-version="true" />
+
+<div class="profile-page-container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="mb-4 profile-title">@ViewData["Title"]</h2>
+        </div>
+    </div>
+
+    <div class="row">
+
+     
+        <div class="col-md-4">
+            <div class="card shadow-sm mb-4 profile-card">
+                <div class="card-header profile-header account-details-header">
+                    Account Details
+                </div>
+                <div class="card-body">
+                    @if (TempData["Success"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["Success"]</div>
+                    }
+
+                    <p class="detail-line"><strong>Full Name:</strong> @Model.User.Nom @Model.User.Prenom</p>
+                    <p class="detail-line"><strong>Email:</strong> @Model.User.Email</p>
+                    <p class="detail-line"><strong>Account Role:</strong> <span class="role-badge">@Model.User.Role</span></p>
+
+                    <a asp-action="EditProfile" class="btn btn-sm profile-btn edit-btn mt-2">Edit Information</a>
+                    <a asp-action="Logout" class="btn btn-sm profile-btn logout-btn mt-2">Logout</a>
+                </div>
+            </div>
+        </div>
+
+       
+        @if (isCustomer)
+        {
+            <div class="col-md-8">
+                <div class="card shadow-sm profile-card">
+                    <div class="card-header profile-header order-history-header">
+                        Order History (@Model.Orders.Count)
+                    </div>
+                    <div class="card-body">
+                        @if (Model.Orders == null || !Model.Orders.Any())
+                        {
+                            <div class="alert alert-info empty-order-alert">You have not placed any orders yet.</div>
+                        }
+                        else
+                        {
+                            @foreach (var order in Model.Orders)
+                            {
+                                // Helper function to determine badge color based on status
+                                string GetStatusBadgeClass(string status) => status switch
+                                {
+                                    "Delivered" => "bg-success",
+                                    "Shipped" => "bg-primary",
+                                    "Processing" => "bg-warning text-dark",
+                                    "Cancelled" => "bg-danger",
+                                    _ => "bg-secondary"
+                                };
+
+                                <div class="card mb-3 order-card">
+                                    <div class="card-header order-header-details d-flex justify-content-between align-items-center">
+
+                                        <div>
+                                            <strong>Order #@order.CommandeID</strong> | Date: @order.DateCommande.ToShortDateString() | Total: @order.Total.ToString("N3") DT
+                                        </div>
+
+                             
+                                        <span class="badge @GetStatusBadgeClass(order.Etat) ms-3 p-2">
+                                            @order.Etat
+                                        </span>
+
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        @foreach (var line in order.Lignes)
+                                        {
+                                            <li class="list-group-item order-item-line d-flex justify-content-between">
+                                                <span>@line.Quantite x @line.ProduitTitre</span>
+                                                <small class="text-muted">@line.SubTotal.ToString("N3") DT (@line.PrixUnitaire.ToString("N3") DT / unit)</small>
+                                            </li>
+                                        }
+                                    </ul>
+                                    <div class="card-footer order-shipping-details">
+                                        Ship To: @order.AdresseExpedition, @order.Ville (@order.CodePostal)
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+          
+            <div class="col-md-8">
+                <div class="card shadow-sm profile-card">
+                    <div class="card-header profile-header order-history-header bg-danger text-white">
+                        Admin Dashboard Actions
+                    </div>
+                    <div class="card-body">
+                        <p>As an Admin, you can manage all customer orders.</p>
+                        <a asp-controller="Admin" asp-action="OrdersList" class="btn profile-btn admin-link-btn">
+                            View All Customer Orders
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

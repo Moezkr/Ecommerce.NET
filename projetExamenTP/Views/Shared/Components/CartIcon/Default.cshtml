@@ -1,0 +1,12 @@
+﻿
+@if ((bool)ViewData["ShouldShowCart"])
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-controller="Cart" asp-action="Index">
+            🛒 <span id="cart-count">
+             
+                @await Component.InvokeAsync("CartSummary")
+            </span>
+        </a>
+    </li>
+}

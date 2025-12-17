@@ -1,0 +1,49 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_Layout"; 
+
+<link rel="stylesheet" href="~/css/adminDashboard.css" asp-append-version="true" />
+
+<div class="admin-dashboard-container">
+
+    <h2 class="admin-page-title">@ViewData["Title"]</h2>
+    <hr class="admin-divider" />
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="admin-nav-group">
+                <a asp-controller="Admin" asp-action="Dashboard" class="admin-nav-item active-link">Dashboard Home</a>
+
+                <a asp-controller="Produit" asp-action="Index" class="admin-nav-item">Manage Products</a>
+
+                <a asp-controller="Categorie" asp-action="Index" class="admin-nav-item">Manage Categories</a>
+
+                <a asp-controller="Admin" asp-action="OrdersList" class="admin-nav-item">Orders List</a>
+
+
+                <a asp-controller="Account" asp-action="Profile" " class="admin-nav-item">Edit Profile</a>
+            
+            </div>
+        </div>
+
+        <div class="col-md-9 admin-content-area">
+
+            <div class="admin-welcome-block">
+                <div class="welcome-text-group">
+                    <h4 class="admin-welcome-header">Welcome, Admin!</h4>
+                   
+                </div>
+
+                <div class="lottie-dashboard-graphic">
+                    <dotlottie-wc src="https://lottie.host/17d2c6a9-c1f2-45a1-b946-346d8f9dc693/UZt2tJ8pqp.lottie"
+                                                     style="width: 450px;height: 450px"
+                                                     autoplay
+                                                     loop>
+                    </dotlottie-wc>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

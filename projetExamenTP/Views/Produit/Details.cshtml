@@ -1,0 +1,86 @@
+﻿@model TestWithADO.Models.Produit
+
+@{
+    ViewData["Title"] = Model.Titre;
+   
+    int maxAddable = (int)ViewData["MaxAddable"];
+}
+<link rel="stylesheet" href="~/css/detailProduit.css" asp-append-version="true" />
+
+
+<div class="product-detail-container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="product-title-header">@Model.Titre</h2>
+            <hr class="detail-hr" />
+        </div>
+    </div>
+
+    <div class="row detail-content-row">
+        <div class="col-md-5 product-image-col">
+            <div class="image-wrapper">
+                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                {
+                    <img src="@Model.ImagePath" class="img-fluid product-main-img" alt="@Model.Titre" />
+                }
+                else
+                {
+                    <img src="~/images/placeholder.jpg" class="img-fluid product-main-img" alt="No Image" />
+                }
+            </div>
+        </div>
+
+        <div class="col-md-7 product-info-col">
+
+            <h3 class="product-price">@Model.Prix.ToString("N3") DT</h3>
+            <p class="product-category">Category: @Model.CategorieNom</p>
+
+            <h4 class="description-header mt-4">Description</h4>
+            <div class="product-description-text">
+                <p>@Model.Description</p>
+            </div>
+
+            <p class="mt-4 status-bar">
+                @if (Model.IsAvailable)
+                {
+                    <span class="badge status-available">In Stock</span>
+                }
+                else
+                {
+                    <span class="badge status-out-of-stock">Out of Stock</span>
+                }
+            </p>
+
+            <div class="cta-section">
+                @if (Model.IsAvailable && maxAddable > 0)
+                {
+                    <form asp-controller="Cart" asp-action="AddToCart" method="post" class="d-flex align-items-center mt-3 add-to-cart-form">
+                        <input type="hidden" name="produitId" value="@Model.ProduitID" />
+                        <input type="hidden" name="titre" value="@Model.Titre" />
+                        <input type="hidden" name="prix" value="@Model.Prix" />
+
+
+                        <div class="me-3 quantity-input-group">
+                            <label for="quantity" class="form-label visually-hidden">Quantity</label>
+                            <input type="number" name="quantity" id="quantity" value="1" min="1" max="@maxAddable" class="form-control" />
+                        </div>
+
+                        <button type="submit" class="btn primary-cta-btn">
+                            🛒 Add to Cart
+                        </button>
+                    </form>
+
+                }
+                else if (Model.IsAvailable && maxAddable <= 0)
+                {
+                    <p class="text-warning mt-3 max-quantity-warning">This product is in stock, but you have reached the **maximum quantity** allowed in your cart.</p>
+                }
+                else
+                {
+                    <p class="text-danger mt-3 unavailable-message">This product is currently unavailable.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

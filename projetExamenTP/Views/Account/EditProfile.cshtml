@@ -1,0 +1,114 @@
+﻿@model TestWithADO.Models.ProfileEditViewModel
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+<link rel="stylesheet" href="~/css/editprofile.css" asp-append-version="true" />
+
+<script src="https://unpkg.com/@@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
+        type="module"></script>
+
+<div class="edit-profile-page-container">
+    <div class="edit-profile-content-wrapper">
+
+        <div class="edit-illustration">
+            <h2 class="illustration-text">UPDATE ACCOUNT DETAILS</h2>
+            <dotlottie-wc src="https://lottie.host/bf924f40-a50f-42b8-801f-c9f5515776f9/9so8n0cKZb.lottie"
+                          style="width: 350px;height: 350px"
+                          autoplay
+                          loop></dotlottie-wc>
+        </div>
+
+        <div class="edit-form-container">
+            <h2 class="form-title">@ViewData["Title"]</h2>
+            <hr class="form-hr" />
+
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success edit-alert-success">@TempData["Success"]</div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger edit-alert-error">@TempData["Error"]</div>
+            }
+
+            <form asp-action="EditProfile" method="post" novalidate class="edit-form">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="UtilisateurID" />
+
+                <h4 class="section-title">Personal Information</h4>
+                <hr class="section-hr" />
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Nom" class="form-label"></label>
+                        <input asp-for="Nom" class="form-control" />
+                        <span asp-validation-for="Nom" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Prenom" class="form-label"></label>
+                        <input asp-for="Prenom" class="form-control" />
+                        <span asp-validation-for="Prenom" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <h4 class="section-title mt-5">Change Password</h4>
+                <hr class="section-hr" />
+
+                <div class="mb-3">
+                    <label class="form-label password-label">Nouveau Mot de Passe (Laisser vide pour ne pas changer)</label>
+                    <input type="password" name="NewPassword" class="form-control" autocomplete="new-password" />
+                    @if (ViewData.ModelState["NewPassword"]?.Errors?.Count > 0)
+                    {
+                        <span class="text-danger">@ViewData.ModelState["NewPassword"].Errors[0].ErrorMessage</span>
+                    }
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label password-label">Confirmer Nouveau Mot de Passe</label>
+                    <input type="password" name="ConfirmNewPassword" class="form-control" autocomplete="new-password" />
+                    @if (ViewData.ModelState["ConfirmNewPassword"]?.Errors?.Count > 0)
+                    {
+                        <span class="text-danger">@ViewData.ModelState["ConfirmNewPassword"].Errors[0].ErrorMessage</span>
+                    }
+                </div>
+
+                <div class="d-flex justify-content-between button-bar mt-4">
+                    <button type="submit" class="btn primary-save-btn">Save Changes</button>
+                    <a asp-action="Profile" class="btn secondary-cancel-btn">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+       
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const newPassword = document.querySelector('input[name="NewPassword"]').value;
+            const confirmPassword = document.querySelector('input[name="ConfirmNewPassword"]').value;
+
+         
+            if (newPassword || confirmPassword) {
+                if (newPassword.length < 6) {
+                    e.preventDefault();
+                    alert('Le mot de passe doit contenir au moins 6 caractères.');
+                    return false;
+                }
+
+                if (newPassword !== confirmPassword) {
+                    e.preventDefault();
+                    alert('Le nouveau mot de passe et sa confirmation ne correspondent pas.');
+                    return false;
+                }
+            }
+        });
+    </script>
+}

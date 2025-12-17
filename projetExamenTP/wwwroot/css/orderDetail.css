@@ -1,0 +1,203 @@
+﻿.admin-page-container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.admin-page-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.admin-divider {
+    border-color: #ff9900;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.admin-nav-group {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.admin-nav-item {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    background-color: #ffffff;
+    transition: background-color 0.2s, color 0.2s, border-left 0.2s;
+    border-left: 5px solid transparent;
+}
+
+.admin-nav-item:hover {
+    background-color: #f5f5f5;
+    color: #ff9900;
+    border-left: 5px solid #ff9900;
+}
+
+.admin-nav-item.active-link {
+    background-color: #1a1a1a;
+    color: #ff9900;
+    font-weight: 600;
+    border-left: 5px solid #ff9900;
+}
+
+.admin-content-area {
+    padding-left: 30px;
+}
+
+.order-info-card, .order-summary-card, .product-list-card, .lottie-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: none !important;
+}
+
+.info-header-bg {
+    background-color: #1a1a1a !important;
+    color: #ff9900;
+}
+
+.summary-header-bg {
+    background-color: #ff9900 !important;
+    color: white;
+}
+
+.product-list-header {
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.card-body p {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.card-body strong {
+    color: #1a1a1a;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card-separator {
+    border-top: 1px solid #eee;
+}
+
+.total-paid {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.lottie-card {
+    height: 250px;
+}
+
+.lottie-body {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lottie-container {
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #999;
+}
+
+.lottie-placeholder {
+    margin: 0;
+    font-style: italic;
+}
+
+.admin-btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    transition: background-color 0.2s;
+    margin-bottom: 5px;
+}
+
+.confirm-delivery-btn {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white;
+}
+
+.confirm-delivery-btn:hover {
+    background-color: #1e7e34 !important;
+    border-color: #1c7430 !important;
+}
+
+.return-btn {
+    background-color: #ff9900 !important;
+    border-color: #ff9900 !important;
+    color: white;
+}
+
+.return-btn:hover {
+    background-color: #e68a00 !important;
+    border-color: #e68a00 !important;
+}
+
+.order-product-table {
+    margin-bottom: 0;
+}
+
+.order-product-table .table-header {
+    background-color: #e9ecef;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.order-product-table th, 
+.order-product-table td {
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+
+.product-name-cell {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.subtotal-cell {
+    font-weight: 700;
+    color: #007bff;
+}

@@ -1,0 +1,40 @@
+﻿@model TestWithADO.Models.Categorie
+@{
+    ViewData["Title"] = "Create New Category";
+}
+<link rel="stylesheet" href="~/css/addCategory.css" asp-append-version="true" />
+
+<div class="category-create-container">
+    <h2 class="form-page-title">@ViewData["Title"]</h2>
+    <hr class="form-page-hr" />
+
+    <div class="row create-category-wrapper justify-content-center">
+
+        <div class="col-md-5 create-form-column">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger validation-summary"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Nom" class="form-label">Category Name *</label>
+                    <input asp-for="Nom" class="form-control" placeholder="Enter category name" />
+                    <span asp-validation-for="Nom" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3 button-bar mt-4">
+                    <button type="submit" class="btn primary-action-btn">Create</button>
+                    <a asp-action="Index" class="btn secondary-action-btn">Back to List</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-5 lottie-illustration-column">
+            <div class="lottie-wrapper">
+               
+                <dotlottie-wc src="https://lottie.host/1f59098c-5c3c-4b02-ba0b-fb401ddb9431/iupFanK1Ut.lottie"
+                              style="width: 600px;height: 600px"
+                              autoplay
+                              loop></dotlottie-wc>
+            </div>
+        </div>
+    </div>
+</div>

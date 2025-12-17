@@ -1,0 +1,41 @@
+﻿@model IEnumerable<TestWithADO.Models.Produit>
+@{
+    ViewData["Title"] = "Manage Products";
+}
+<link rel="stylesheet" href="~/css/produits.css" asp-append-version="true" />
+
+<div class="admin-products-container">
+
+    <h2 class="admin-page-title">Admin: Manage Products</h2>
+
+    <p class="create-product-bar">
+        <a asp-action="Create" class="btn create-new-btn">Create New Product</a>
+    </p>
+
+    <table class="table admin-product-table">
+        <thead class="table-header">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Titre)</th>
+                <th>@Html.DisplayNameFor(model => model.Prix)</th>
+                <th>@Html.DisplayNameFor(model => model.Capacite)</th>
+                <th>@Html.DisplayNameFor(model => model.CategorieNom)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="product-row">
+                    <td>@item.Titre</td>
+                    <td class="price-col">@item.Prix.ToString("N3") DT</td>
+                    <td>@item.Capacite</td>
+                    <td>@item.CategorieNom</td>
+                    <td class="action-col">
+                        <a asp-action="Edit" asp-route-id="@item.ProduitID" class="action-link edit-link">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ProduitID" class="action-link delete-link">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

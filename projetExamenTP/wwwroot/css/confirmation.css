@@ -1,0 +1,69 @@
+﻿.confirmation-container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+.confirmation-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    padding: 30px 40px;
+    border: 1px solid #eee;
+}
+
+.lottie-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.confirmation-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 10px;
+}
+
+.confirmation-divider {
+    border-color: #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.confirmation-message {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #28a745;
+}
+
+.details-message, .confirmation-message-default {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.continue-shopping-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.continue-shopping-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.eth-message {
+    font-size: 1rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.eth-value {
+    font-weight: 700;
+}

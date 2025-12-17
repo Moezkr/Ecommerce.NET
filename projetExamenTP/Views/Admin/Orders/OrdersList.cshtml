@@ -1,0 +1,96 @@
+﻿@model List<TestWithADO.Models.Commande>
+
+@{
+    ViewData["Title"] = "Customer Orders List";
+
+   
+    string GetStatusBadgeClass(string status) => status switch
+    {
+        "Delivered" => "bg-success",
+        "Shipped" => "bg-primary",
+        "Processing" => "bg-warning text-dark",
+        "Cancelled" => "bg-danger",
+        _ => "bg-secondary"
+    };
+}
+
+<link rel="stylesheet" href="~/css/ordersList.css" asp-append-version="true" />
+
+<div class="admin-page-container">
+    <h2 class="admin-page-title">@ViewData["Title"]</h2>
+    <hr class="admin-divider" />
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="admin-nav-group">
+                <a asp-controller="Admin" asp-action="Dashboard" class="admin-nav-item">Dashboard Home</a>
+
+                <a asp-controller="Produit" asp-action="Index" class="admin-nav-item">Manage Products</a>
+
+                <a asp-controller="Categorie" asp-action="Index" class="admin-nav-item">Manage Categories</a>
+
+                <a asp-controller="Admin" asp-action="OrdersList" class="admin-nav-item active-link">Orders List</a>
+
+                <a asp-controller="Account" asp-action="EditProfile" class="admin-nav-item">Edit Profile</a>
+            </div>
+        </div>
+
+        <div class="col-md-9 admin-content-area">
+
+            
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger admin-alert-error">@TempData["Error"]</div>
+            }
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success admin-alert-success">@TempData["Success"]</div>
+            }
+
+            @if (Model == null || !Model.Any())
+            {
+                <div class="alert alert-info admin-alert-info">No customer orders have been placed yet.</div>
+            }
+            else
+            {
+                <table class="table admin-order-table">
+                    <thead class="table-header">
+                        <tr>
+                            <th>Order ID</th>
+                           
+                            <th>Date</th>
+                            <th>Total</th>
+                            <th>City</th>
+                            <th>Method</th>
+                            <th>Status</th> 
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            <tr class="order-row">
+                                <td class="order-id-cell">#@order.CommandeID</td>
+                             
+                                <td>@order.DateCommande.ToShortDateString()</td>
+                                <td class="total-col">@order.Total.ToString("N3") DT</td>
+                                <td>@order.Ville</td>
+                                <td>@order.MethodeLivraison</td>
+
+                                
+                                <td>
+                                    <span class="badge @GetStatusBadgeClass(order.Etat)">@order.Etat</span>
+                                </td>
+
+                                <td class="action-col">
+                                    <a asp-controller="Admin" asp-action="OrderDetail" asp-route-id="@order.CommandeID" class="action-link view-details-link">View Details</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>

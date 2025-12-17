@@ -1,0 +1,198 @@
+﻿@model TestWithADO.Models.CheckoutViewModel
+@{
+    ViewData["Title"] = "Checkout";
+
+    decimal cartTotal = 0;
+    decimal ethPrice = 0;
+    decimal ethNeeded = 0;
+
+    try
+    {
+        cartTotal = (decimal)(ViewData["CartTotal"] ?? 0.0M);
+        ethPrice = (decimal)(ViewData["EthPriceInDinar"] ?? 0.0M);
+        ethNeeded = (decimal)(ViewData["EthNeeded"] ?? 0.0M);
+    }
+    catch
+    {
+        <div class="alert alert-danger">
+            ERROR: Could not parse ETH values!
+        </div>
+    }
+}
+<link rel="stylesheet" href="~/css/checkout.css" asp-append-version="true" />
+
+<script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+
+<div class="checkout-page-content">
+
+    <h2 class="checkout-title">Checkout</h2>
+    <hr class="checkout-hr" />
+
+    <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3 cart-summary-header">
+                <span>Your Cart</span>
+                <span class="badge cart-badge">@await Component.InvokeAsync("CartSummary")</span>
+            </h4>
+
+            <ul class="list-group mb-3 checkout-price-list">
+                <li class="list-group-item d-flex justify-content-between price-item">
+                    <span class="price-label">Subtotal (DT)</span>
+                    <strong id="total-price" class="price-value">@cartTotal.ToString("N3") DT</strong>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between eth-price-row">
+                    <small class="text-muted price-label">1 ETH Price</small>
+                    <strong class="price-value"><span id="eth-price">@ethPrice.ToString("N3")</span> TND</strong>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between final-eth-row">
+                    <span class="price-label">TOTAL ETHEREUM</span>
+                    <strong class="price-value eth-final-value"><span id="eth-needed">@ethNeeded.ToString("F10")</span> ETH</strong>
+                </li>
+            </ul>
+
+            <div class="lottie-checkout-container">
+                <p class="lottie-label">Pay with Ethereum via MetaMask</p>
+                <dotlottie-wc src="https://lottie.host/fa85c7dc-50e1-491f-98bd-4a8dc61410f5/3J2Jnfnxrw.lottie"
+                              style="width: 350px;height: 350px"
+                              autoplay
+                              loop></dotlottie-wc>
+            </div>
+
+        </div>
+
+        <div class="col-md-8 order-md-1 checkout-form-column">
+            <h4 class="mb-3 form-header">Delivery Information</h4>
+            <form asp-action="PlaceOrder" asp-controller="Cart" method="post" id="checkout-form">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="AdresseExpedition" class="form-label"></label>
+                    <input asp-for="AdresseExpedition" class="form-control" required />
+                    <span asp-validation-for="AdresseExpedition" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Ville" class="form-label"></label>
+                        <input asp-for="Ville" class="form-control" required />
+                        <span asp-validation-for="Ville" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="CodePostal" class="form-label"></label>
+                        <input asp-for="CodePostal" class="form-control" required />
+                        <span asp-validation-for="CodePostal" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Telephone" class="form-label"></label>
+                    <input asp-for="Telephone" class="form-control" required />
+                    <span asp-validation-for="Telephone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="MethodeLivraison" class="form-label"></label>
+                    <select asp-for="MethodeLivraison" class="form-control checkout-select" required>
+                        <option value="">-- Select Method --</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Express">Express</option>
+                    </select>
+                    <span asp-validation-for="MethodeLivraison" class="text-danger"></span>
+                </div>
+
+                <input type="hidden" id="blockchain-paid" name="IsBlockchainPaid" value="false" />
+
+                <hr class="mb-4 checkout-divider">
+
+                <button id="place-order-btn" class="checkout-submit-btn" type="submit">
+                    VALIDATE AND PLACE ORDER
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+                const orderButton = document.getElementById('place-order-btn');
+                const blockchainPaidInput = document.getElementById('blockchain-paid');
+
+                document.getElementById('checkout-form').addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    orderButton.disabled = true;
+       
+                    const ethNeededElement = document.getElementById('eth-needed');
+                    if (!ethNeededElement) {
+                        alert("ERROR: Cannot find ETH amount on page!");
+                        orderButton.disabled = false;
+                        return;
+                    }
+
+                    let ethNeededString = ethNeededElement.innerText.replace(' ETH', '').trim();
+                    const ethNeeded = parseFloat(ethNeededString);
+
+                   
+                    if (ethNeeded <= 0 || ethNeeded > 1000) {
+                        alert("ERROR: Invalid ETH amount!");
+                        orderButton.disabled = false;
+                        return;
+                    }
+
+                    if (!window.ethereum) {
+                        alert("MetaMask not detected!");
+                        orderButton.disabled = false;
+                        return;
+                    }
+
+                    try {
+                        const web3 = new Web3(window.ethereum);
+                        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+                        const sender = accounts[0];
+                        const receiverAddress = "0xE3F4c6Cdc1B424A6eCAFf25B54CE7F1DA96EABdc";
+
+                        console.log("Sending:", ethNeededString, "ETH");
+
+                      
+                        const valueInWei = web3.utils.toWei(ethNeededString, 'ether');
+                        const valueInWeiHex = '0x' + BigInt(valueInWei).toString(16);
+
+                      
+                        const txHash = await window.ethereum.request({
+                            method: 'eth_sendTransaction',
+                            params: [{
+                                from: sender,
+                                to: receiverAddress,
+                                value: valueInWeiHex,
+                                gas: '0x5208',
+                                gasPrice: '0x77359400'
+                            }],
+                        });
+
+                        console.log("Transaction sent:", txHash);
+                        alert("✅ Payment successful! Saving your order...");
+
+                      
+                        blockchainPaidInput.value = "true";
+
+                     
+                        document.getElementById('checkout-form').submit();
+
+                    } catch (error) {
+                        console.error("Error:", error);
+                        orderButton.disabled = false;
+
+                        if (error.code === 4001) {
+                            alert("❌ Transaction cancelled by user.");
+                        } else {
+                            alert("❌ Payment failed: " + error.message);
+                        }
+                    }
+                });
+    </script>
+}

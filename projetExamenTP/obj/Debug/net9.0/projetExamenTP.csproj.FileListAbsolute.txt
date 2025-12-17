@@ -1,0 +1,336 @@
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.AssemblyInfo.cs
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.RazorAssemblyInfo.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.RazorAssemblyInfo.cs
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\appsettings.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.staticwebassets.runtime.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.staticwebassets.endpoints.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.exe
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.deps.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.runtimeconfig.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.pdb
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\scopedcss\bundle\projetExamenTP.styles.css
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\scopedcss\projectbundle\projetExamenTP.bundle.scp.css
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\srhndl6emk-61n19gt1b8.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\mcggarkm2j-xtxxf3hu2r.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bd2bqs0om9-bqjiyaj88i.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\e19rh17maa-c2jlpeoesf.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\rtzh22q98i-erw9l3u2r3.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\28i8t3i1b3-aexeepp0ev.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\cvhy6ikimn-d7shbmvgxk.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\5ugxfpe1vl-ausgxo2sd3.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\b1j7gye4d4-k8d9w2qqmf.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\xojfk1w16x-cosvhxvwiu.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\g69teg4jc6-ub07r2b239.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\09tnk9qojr-fvhpjtyr6v.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\6vq1nh50qp-b7pk76d08c.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\dh4lrqdb96-fsbi9cje9m.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\azgogg3cms-rzd6atqjts.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\jqlzgahi5f-ee0r1s7dh0.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\hf1gpdzo39-dxx9fxp4il.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\065fiiw8w0-jd9uben2k1.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\73gl72wa47-khv3u5hwcm.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\glkend7m2x-r4e9w2rdcm.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\mwtvmwifnn-lcd1t2u6c8.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\yukjqoefam-c2oey78nd0.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\z7i6503bhj-tdbxkamptv.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zmmhdev1mv-j5mq2jizvt.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\dz439fuobx-06098lyss8.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\414tpkjs3b-nvvlpmu67g.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\arx9nr96qw-s35ty4nyc5.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\cekeam5d7l-pj5nd1wqec.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\40i884du41-46ein0sx1k.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\qbz8snonza-v0zj4ognzu.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\97wpwgn0sg-37tfw0ft22.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\drlsmxyod3-hrwsygsryq.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\z4z6rekezj-pk9g2wxc8p.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\poeobdymow-ft3s53vfgj.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zk6qjvsyuk-6cfz1n2cew.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\izklspzexb-6pdc2jztkx.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\96ir3msrde-493y06b0oq.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\s0jjncfx1y-iovd86k7lj.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\ylx7dyx55b-vr1egmr9el.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\3sn6o8cxsa-kbrnm935zg.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\xjbssv0mjz-jj8uyg4cgr.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zfisnzt83i-y7v9cxd14o.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\760lu8thc5-notf2xhcfb.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\9hsrx33oe9-h1s4sie4z3.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\x5tvv7jsi1-63fj8s7r0e.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\nhdjsfqzzq-0j3bgjxly4.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\e6t4d61umr-47otxtyo56.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\7u33t06hqq-4v8eqarkd7.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\tr36keyv8e-356vix0kms.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\49lt3ikj6k-83jwlth58m.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bvi1a504fr-mrlpezrjn3.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bu4leu9nhw-lzl9nlhx6b.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\6sns7wgytu-ag7o75518u.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\jnqt5usoda-x0q3zqp4vz.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\9iaiocxa5w-0i3buxo5is.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\k1sljr0v7i-o1o13a6vjx.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\fs5z614qvx-ttgo8qnofa.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\jlraz1g2dl-2z0ns9nrw6.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\fe3l8bochu-muycvpuwrr.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\3e1zaaxj3m-87fc7y1x7t.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\k7kfxogig5-mlv21k5csn.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\7zndbvk88j-30pbuwww92.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\xnammiw24t-30pbuwww92.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetEx.3B7C57C5.Up2Date
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\refint\projetExamenTP.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.pdb
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.genruntimeconfig.cache
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\ref\projetExamenTP.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Blockchain\build\contracts\ConvertLib.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Blockchain\build\contracts\MetaCoin.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Blockchain\build\contracts\Migrations.json
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\owi6dqmlqt-7vzijnwlky.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\c6i9or1bft-48vraaaxk2.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\6ybzyc25er-p671hg7qci.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zh9dn1j07e-ylue5xcuqr.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\qae0orpx59-jgoiukl0lk.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\em0k4y6zkr-ewtuta6dke.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bmhhzbd50t-b4imt8jw7j.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\3cyh8l184b-tuv04wfx31.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\s15wgr52k5-0zla37q2lj.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\nj8vj9ig6b-9br6upici8.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\c0slvtnyoq-xqqcga7oth.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\4qkocn84n4-sbcrvcip6e.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\a2g9iepje0-5zbvhyxay4.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\onhtylynp7-nb0t6itbn7.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bkqu7ro85w-5404d40z6l.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\7hgv6ew4q1-cstnm43qui.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\elnxidax82-d8fktgn6j1.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\nfm9eaaimo-mew1v0k6d7.gz
+C:\Users\Dell\Desktop\projet .net\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\urngu7schu-st8ruvu2db.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\appsettings.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Blockchain\build\contracts\ConvertLib.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Blockchain\build\contracts\MetaCoin.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Blockchain\build\contracts\Migrations.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.staticwebassets.endpoints.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.staticwebassets.runtime.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.exe
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.deps.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.runtimeconfig.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\projetExamenTP.pdb
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.AssemblyInfo.cs
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.RazorAssemblyInfo.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.RazorAssemblyInfo.cs
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\scopedcss\bundle\projetExamenTP.styles.css
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\scopedcss\projectbundle\projetExamenTP.bundle.scp.css
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bkqu7ro85w-5404d40z6l.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\4qkocn84n4-sbcrvcip6e.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\nj8vj9ig6b-9br6upici8.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\c0slvtnyoq-xqqcga7oth.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\em0k4y6zkr-ewtuta6dke.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\urngu7schu-st8ruvu2db.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\a2g9iepje0-5zbvhyxay4.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\s15wgr52k5-0zla37q2lj.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\7hgv6ew4q1-cstnm43qui.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\onhtylynp7-nb0t6itbn7.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bmhhzbd50t-b4imt8jw7j.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\owi6dqmlqt-7vzijnwlky.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\6ybzyc25er-p671hg7qci.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\nfm9eaaimo-mew1v0k6d7.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\elnxidax82-d8fktgn6j1.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\3cyh8l184b-tuv04wfx31.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\qae0orpx59-jgoiukl0lk.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zh9dn1j07e-ylue5xcuqr.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\c6i9or1bft-48vraaaxk2.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\srhndl6emk-61n19gt1b8.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\mcggarkm2j-xtxxf3hu2r.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bd2bqs0om9-bqjiyaj88i.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\e19rh17maa-c2jlpeoesf.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\rtzh22q98i-erw9l3u2r3.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\28i8t3i1b3-aexeepp0ev.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\cvhy6ikimn-d7shbmvgxk.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\5ugxfpe1vl-ausgxo2sd3.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\b1j7gye4d4-k8d9w2qqmf.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\xojfk1w16x-cosvhxvwiu.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\g69teg4jc6-ub07r2b239.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\09tnk9qojr-fvhpjtyr6v.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\6vq1nh50qp-b7pk76d08c.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\dh4lrqdb96-fsbi9cje9m.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\azgogg3cms-rzd6atqjts.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\jqlzgahi5f-ee0r1s7dh0.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\hf1gpdzo39-dxx9fxp4il.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\065fiiw8w0-jd9uben2k1.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\73gl72wa47-khv3u5hwcm.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\glkend7m2x-r4e9w2rdcm.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\mwtvmwifnn-lcd1t2u6c8.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\yukjqoefam-c2oey78nd0.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\z7i6503bhj-tdbxkamptv.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zmmhdev1mv-j5mq2jizvt.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\dz439fuobx-06098lyss8.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\414tpkjs3b-nvvlpmu67g.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\arx9nr96qw-s35ty4nyc5.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\cekeam5d7l-pj5nd1wqec.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\40i884du41-46ein0sx1k.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\qbz8snonza-v0zj4ognzu.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\97wpwgn0sg-37tfw0ft22.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\drlsmxyod3-hrwsygsryq.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\z4z6rekezj-pk9g2wxc8p.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\poeobdymow-ft3s53vfgj.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zk6qjvsyuk-6cfz1n2cew.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\izklspzexb-6pdc2jztkx.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\96ir3msrde-493y06b0oq.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\s0jjncfx1y-iovd86k7lj.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\ylx7dyx55b-vr1egmr9el.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\3sn6o8cxsa-kbrnm935zg.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\xjbssv0mjz-jj8uyg4cgr.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\zfisnzt83i-y7v9cxd14o.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\760lu8thc5-notf2xhcfb.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\9hsrx33oe9-h1s4sie4z3.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\x5tvv7jsi1-63fj8s7r0e.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\nhdjsfqzzq-0j3bgjxly4.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\e6t4d61umr-47otxtyo56.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\7u33t06hqq-4v8eqarkd7.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\tr36keyv8e-356vix0kms.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\49lt3ikj6k-83jwlth58m.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bvi1a504fr-mrlpezrjn3.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\bu4leu9nhw-lzl9nlhx6b.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\6sns7wgytu-ag7o75518u.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\jnqt5usoda-x0q3zqp4vz.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\9iaiocxa5w-0i3buxo5is.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\k1sljr0v7i-o1o13a6vjx.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\fs5z614qvx-ttgo8qnofa.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\jlraz1g2dl-2z0ns9nrw6.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\fe3l8bochu-muycvpuwrr.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\3e1zaaxj3m-87fc7y1x7t.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\k7kfxogig5-mlv21k5csn.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\7zndbvk88j-30pbuwww92.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\compressed\xnammiw24t-30pbuwww92.gz
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetEx.3B7C57C5.Up2Date
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\refint\projetExamenTP.dll
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.pdb
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\projetExamenTP.genruntimeconfig.cache
+C:\Users\Dell\Desktop\projetExamenTP\projetExamenTP\obj\Debug\net9.0\ref\projetExamenTP.dll

@@ -1,0 +1,88 @@
+﻿@using System.Globalization;
+@model dynamic
+
+@{
+    ViewData["Title"] = "Order Confirmed";
+    string successMessage = TempData["Success"] as string;
+
+   
+    decimal ethExchangeRate = 8896.41M; 
+    decimal orderTotalDT = 0M;
+    decimal orderTotalETH = 0M;
+    string ethCalculationMessage = "";
+
+    if (!string.IsNullOrEmpty(successMessage))
+    {
+     
+        string pricePart = successMessage
+            .Split(new string[] { "Total: " }, StringSplitOptions.None).LastOrDefault()? 
+            .Split(new string[] { " DT" }, StringSplitOptions.None).FirstOrDefault()? 
+            .Trim();
+
+      
+        if (pricePart != null)
+        {
+            pricePart = pricePart.Replace(",", "");
+        }
+
+       
+        if (decimal.TryParse(pricePart, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out orderTotalDT))
+        {
+         
+            if (ethExchangeRate > 0)
+            {
+                orderTotalETH = orderTotalDT / ethExchangeRate;
+
+              
+                ethCalculationMessage = $"The Ethereum equivalent used was: <strong class='eth-value'>{orderTotalETH.ToString("N5", CultureInfo.InvariantCulture)} ETH</strong>.";
+            }
+        }
+    }
+}
+
+<link rel="stylesheet" href="~/css/confirmation.css" asp-append-version="true" />
+
+
+
+
+<div class="confirmation-container text-center mt-5">
+    <div class="confirmation-card">
+
+        <div class="lottie-wrapper">
+            <dotlottie-wc src="https://lottie.host/31b69ae4-d4b2-4bf6-814f-a19a5ef1b94f/yZdH6cKEu1.lottie"
+                          style="width: 300px; height: 300px"
+                          autoplay
+                          loop>
+            </dotlottie-wc>
+        </div>
+
+        <h1 class="confirmation-title">Order Placed Successfully!</h1>
+        <hr class="confirmation-divider">
+
+        @if (!string.IsNullOrEmpty(successMessage))
+        {
+            <p class="lead confirmation-message">
+                @successMessage
+            </p>
+
+            @if (!string.IsNullOrEmpty(ethCalculationMessage))
+            {
+                <p class="lead eth-message">
+                    @Html.Raw(ethCalculationMessage)
+                </p>
+            }
+
+            <p class="details-message">Your order details have been saved to the database.</p>
+        }
+        else
+        {
+            <p class="lead confirmation-message-default">
+                Thank you for your purchase! Your order is being processed.
+            </p>
+        }
+
+        <p class="mt-4">
+            <a asp-controller="Home" asp-action="Products" class="btn continue-shopping-btn">Continue Shopping</a>
+        </p>
+    </div>
+</div>
